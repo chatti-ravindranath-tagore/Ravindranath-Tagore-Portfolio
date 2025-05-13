@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CHATTI RAVINDRANATH TAGORE - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* Global Theme Variables */
+    :root {
+      --main-bg: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      --card-bg: rgba(255, 255, 255, 0.1);
+      --card-blur: blur(20px);
+      --text-color: #ffffff;
+      --accent-color: #00e0ff;
+      --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--main-bg);
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: var(--accent-color);
+    }
+
+    header p, a {
+      color: #e0e0e0;
+      font-size: 1.1em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      background: var(--card-bg);
+      backdrop-filter: var(--card-blur);
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 20px;
+      box-shadow: var(--box-shadow);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: var(--accent-color);
+    }
+
+    h3 {
+      margin-top: 20px;
+      font-size: 1.4em;
+      color: #ffd700;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: var(--accent-color);
+    }
+
+    .contact-info i {
+      margin-right: 8px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .container {
+        padding: 10px;
+      }
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CHATTI RAVINDRANATH TAGORE</h1>
+    <p><i class="fas fa-envelope"></i> <a href="mailto:rchatti@gitam.in">rchatti@gitam.in</a> |
+       <i class="fas fa-phone"></i> +91 8639390572</p>
+    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/chatti-ravindranath-tagore-ab2b68251" target="_blank">linkedin.com/in/ravindranath-tagore</a><br>
+    
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate Computer Science and Engineering (IoT) student at GITAM with a CGPA of 9.65. I thrive on solving real-world problems using a blend of technology and creativity. With experience in machine learning, IoT systems, and backend/frontend development, I'm eager to take on challenging roles and contribute to meaningful projects.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages: Python, Java, C, HTML/CSS, SQL</li>
+        <li>Technologies: AI, Machine Learning, IoT protocols</li>
+        <li>Libraries: Pandas, NumPy, Matplotlib</li>
+        <li>Tools: VS Code, Jupyter, Google Colab, StarUML</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>Machine Learning and Data Science</li>
+        <li>IoT Applications for Smart Cities</li>
+        <li>Full Stack Web Development</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <h3>🎬 Movie Recommendation System</h3>
+      <p>Built a content-based movie recommendation system using Python and NLP (CountVectorizer, Cosine Similarity). Achieved 85% accuracy.</p>
+
+      <h3>📚 Library Database Management System</h3>
+      <p>Developed a full SQL-based book management system with CRUD operations and normalization for efficient database performance.</p>
+
+      <h3>📄 Resume Analyzer Using NLP</h3>
+      <p>Created a classifier with 97% accuracy to categorize resumes using TF-IDF and OneVsRest classifier.</p>
+
+      <h3>🔔 Smart Doorbell System</h3>
+      <p>IoT-based doorbell with MQTT, NodeMCU, and vibration alerts designed to assist hearing-impaired individuals.</p>
+    </section>
+
+    <section>
+      <h2>Contact Information</h2>
+      <p class="contact-info">
+        <i class="fas fa-envelope"></i> <a href="mailto:rchatti@gitam.in">rchatti@gitam.in</a><br>
+        <i class="fas fa-phone"></i> +91 8639390572<br>
+        <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/chatti-ravindranath-tagore-ab2b68251" target="_blank">linkedin.com/in/ravindranath-tagore</a><br>
+      
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
